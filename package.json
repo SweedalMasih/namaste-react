@@ -4,6 +4,8 @@
   "description": "Learn React with Akshay Saini!",
   "main": "App.js",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {

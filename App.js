@@ -19,5 +19,8 @@ const heading = React.createElement(
 );
 console.log(heading); // object
 
+const jsxHeading = <h1>Hello World using JSX!</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+// root.render(heading);
+root.render(jsxHeading);
