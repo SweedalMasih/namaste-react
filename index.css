@@ -1,3 +1,39 @@
-#heading {
-  color: violet;
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid violet;
+}
+
+.logo {
+  height: 10rem;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.navItems > li {
+  padding: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  height: 1.6rem;
 }
