@@ -31,6 +31,10 @@ html {
   padding: 0 2rem;
 }
 
+.nav-item {
+  text-decoration: none;
+}
+
 .cart-item {
   display: flex;
   flex-direction: row;
@@ -150,4 +154,53 @@ html {
   padding: 8px;
   width: 55%;
   height: 16px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restaurant-menu {
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.restaurant-menu > h2 {
+  font-size: 2.4rem;
+  text-align: left;
+  width: 60rem;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.5px solid rgba(255, 165, 0, 0.3);
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.3);
+}
+
+.item-info > h3 {
+  font-size: 1.6rem;
+}
+
+.item-info > p {
+  font-size: 1.4rem;
+  color: #666;
+}
+
+.item-img > img {
+  width: 9rem;
+  height: 8rem;
+  border-radius: 8px;
+  margin-right: 1.5rem;
 }
